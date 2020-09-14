@@ -41,7 +41,7 @@ html, body{
 
 /* no-repeat center center fixed */
 #home {
-	background-image: url('img/mainBackground.jpg') ;
+	background-image: url('img/homeBackground.jpg') ;
  	/* position: fixed; */
  	display: table;
  	position:relative;
@@ -72,6 +72,30 @@ html, body{
 	background-attachment: fixed;
 }
 
+.lead{
+	border: 1px solid grey;
+	background-color: rgb(230, 225, 225);
+	width:75%;
+	padding:1%;
+}
+
+/* .skillBody{
+	width:100%;
+} */
+/* .list-group-item{
+	flex-direction: row;
+} */
+
+ul.list-group:after {
+	clear: both;
+	display: block;
+	content: "";
+  }
+  
+  .list-group-item {
+	  float: left;
+  }
+
 .projects{
 	background-image: url('img/background.jpg') ;
 	/* display: table; */
@@ -81,7 +105,6 @@ html, body{
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 
 .row {
     margin-right: -15px;
@@ -103,12 +126,17 @@ html, body{
 .card{
     margin: 8px 10px;
     margin-left:15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
 }
 
 div.card:hover{
     border: 1px solid black;
 }
+
+/* .card-body{
+	background-color: white;
+} */
 
 
 .imgResponsive{
