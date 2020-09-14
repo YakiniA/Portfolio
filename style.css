@@ -90,7 +90,7 @@ html, body{
     flex-wrap: wrap;
 }
 
-#fixed{
+/* #fixed{
 	background-image: url('img/keyboardImg.jpg');
 	display: table;
  	position:relative;
@@ -98,7 +98,7 @@ html, body{
 	height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
-}
+} */
 
 .card{
     margin: 8px 10px;
