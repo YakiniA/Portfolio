@@ -95,6 +95,7 @@ ul.list-group:after {
   
   .list-group-item {
 	  float: left;
+	  background-color: rgb(230, 225, 225);
   }
 
 /* .projects{
@@ -238,7 +239,7 @@ footer{
 .card-title{
 	font-size:22px;
 	font-weight: bold;
-}
+} 
 .fa:hover{
 	color: #D5D5D5;
 	text-decoration: none;
@@ -298,7 +299,7 @@ footer{
     padding: 10px;    
 }
 
-.card .card-content .card-title, .card-reveal .card-title{
+.card .card-content .card-title .card-reveal {
     font-size: 24px;
     font-weight: 200;    
 }
