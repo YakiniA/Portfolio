@@ -1,5 +1,5 @@
 ﻿* {
-    box-sizing: border-box;
+	box-sizing: border-box;
   }
 
 html, body{
@@ -31,10 +31,9 @@ html, body{
 	height: 100%; 
 	background-size: cover;
 	background-attachment: fixed;
-
 }
 .landing-text {
-     display: table-cell;
+   display: table-cell; 
 	text-align: center;
 	vertical-align: middle;
 } 
@@ -56,13 +55,6 @@ html, body{
 	width:75%;
 	padding:1%;
 }
-
-/* .skillBody{
-	width:100%;
-} */
-/* .list-group-item{
-	flex-direction: row;
-} */
 
 ul.list-group:after {
 	clear: both;
@@ -111,10 +103,10 @@ a.btn {
     transition: all 0.1s 0s ease-out;
     z-index: 10;
 }
-.padding{
+/* .padding{
 	padding: 25px 0;
 	background-color: rgb(195, 193, 193);
-}
+} */
 
 .projects{
 	background-image: url('img/portfolioBackground.jpg');
@@ -249,3 +241,13 @@ footer{
     background-color: transparent;
     font-size:18px;
 }
+
+/* @media screen and (max-width: 340px){
+#home {
+	max-width:100%; 
+}
+
+footer {
+	max-width:100%;
+} 
+}*/
