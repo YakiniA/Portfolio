@@ -5,6 +5,7 @@
 html, body{
 	height: 100%;
 	width: 100%;
+
 }
 
 .navbar{
@@ -22,48 +23,24 @@ html, body{
     color: #FFF;
 }
 
-
-/*--- iOS Landing Page Fix ---*/
-/* section {
- 	position: relative;
- 	width: 100%;
- 	height: 100%;
- 	display: table;
-}
-.home-wrap {
- 	clip: rect(0, auto, auto, 0);
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	width: 100%;
- 	height: 100%;
-} */
-
-/* no-repeat center center fixed */
 #home {
 	background-image: url('img/homeBackground.jpg') ;
- 	/* position: fixed; */
  	display: table;
  	position:relative;
- 	width: 100%;
-	height: 100%;
+	width:100%;
+	height: 100%; 
 	background-size: cover;
 	background-attachment: fixed;
-	 /* background-position: center center; */
-	/*-webkit-transform: translateZ(0);
-          transform: translateZ(0);
-	will-change: transform;
-	z-index: -1; */
+
 }
 .landing-text {
-	/* z-index: 100; */
-	display: table-cell;
+     display: table-cell;
 	text-align: center;
 	vertical-align: middle;
-}
+} 
 
 
- .aboutus{
+.aboutus{
 	background-image: url('img/keyboardImg.jpg') ;
 	display: table;
  	position:relative;
@@ -96,17 +73,8 @@ ul.list-group:after {
   .list-group-item {
 	  float: left;
 	  background-color: rgb(230, 225, 225);
+	  
   }
-
-/* .projects{
-	background-image: url('img/background.jpg') ;
-	/* display: table; */
- 	/* position:relative; */
- 	/*width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-} */
 
 .row {
     margin-right: -15px;
@@ -114,16 +82,6 @@ ul.list-group:after {
     display: flex;
     flex-wrap: wrap;
 }
-
-/* #fixed{
-	background-image: url('img/keyboardImg.jpg');
-	display: table;
- 	position:relative;
- 	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-} */
 
 .card{
     margin: 8px 10px;
@@ -135,11 +93,6 @@ ul.list-group:after {
 div.card:hover{
     border: 1px solid black;
 }
-
-/* .card-body{
-	background-color: white;
-} */
-
 
 .imgResponsive{
     max-width:380px;
@@ -165,48 +118,20 @@ a.btn {
 
 .projects{
 	background-image: url('img/portfolioBackground.jpg');
-	/* position: fixed; */
-	/* display: block; */
-	/* position:relative;
-	display: table; */
+	display: table; 
+    position:relative;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
 
 }
-/*--- iOS Fixed Image Fix ---*/
-/* figure {
-	position: relative;
-	width: 100%;
-	height: 60%;
-}
-.fixed-wrap {
-	clip: rect(0, auto, auto, 0);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-#fixed {
-	background-image: url('img/background.jpg');
-	position: fixed;
-	display: block;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center center;
-	-webkit-transform: translateZ(0);
-          transform: translateZ(0);
-	will-change: transform;
-} */
 
 footer{
 	width:100%;
-	height:auto;
+	height:100%;
+	display:table;
+	position: relative;
 	background-color: #23415c;
 	padding: 5% 5% 10% 5%;
 	color: #FFF;
@@ -246,21 +171,6 @@ footer{
 	
 }
 
-/* .card .card-reveal {
-    padding: 20px;
-    position: absolute;
-    background-color: #FFF;
-    width: 100%;
-    overflow-y: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    z-index: 1;
-   
-} */
-
-
 .card .card-image{
     overflow: hidden;
     -webkit-transform-style: preserve-3d;
@@ -277,14 +187,6 @@ footer{
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-
-/* .card .card-image:hover img{
-    -webkit-transform: scale(1.2) rotate(-7deg);
-    -moz-transform: scale(1.2) rotate(-7deg);
-    -ms-transform: scale(1.2) rotate(-7deg);
-    -o-transform: scale(1.2) rotate(-7deg);
-    transform: scale(1.2) rotate(-7deg);
-} */
 
 .card{
     font-family: 'Roboto', sans-serif; 
