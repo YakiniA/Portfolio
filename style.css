@@ -211,16 +211,44 @@ footer{
 	color: #FFF;
 
 }
-
+/* 
 .fa{
 	padding: 15px;
 	font-size:25px;
 	color:#FFF;
 
+} */
+
+.fa {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
 }
 
+.card-title{
+	font-size:22px;
+	font-weight: bold;
+}
 .fa:hover{
 	color: #D5D5D5;
 	text-decoration: none;
 	
 }
+
+/* .card .card-reveal {
+    padding: 20px;
+    position: absolute;
+    background-color: #FFF;
+    width: 100%;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 1;
+   
+} */
