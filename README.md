@@ -28,10 +28,10 @@ This assignment mainly focuses on updating the already existing portfolio. The w
 #### Screenshots
 
 <p style ="text-align:center;">
-<img src="img/HomePage.png" width="420" alt= "AboutPage" height="350"/>
-<img src="img/AboutUs.png"  width="420" alt="Portfolio Page" height="350"/>
-<img src="img/Portfolio.png" width="420" alt="Projects Page" height="350"/>
-<img src="img/Contact.png"  width="420" alt="Contact Page" height="350"/>
+<img src="img/HomePage.png" width="380" alt= "AboutPage" height="350"/>
+<img src="img/AboutUs.png"  width="380" alt="Portfolio Page" height="350"/>
+<img src="img/Portfolio.png" width="380" alt="Projects Page" height="350"/>
+<img src="img/Contact.png"  width="380" alt="Contact Page" height="350"/>
 </p>
 
 Here's the link to my developed Website : [RecentPortfolio](https://yakinia.github.io/portfolio)

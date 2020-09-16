@@ -525,7 +525,12 @@
       $('.card-reveal .close').on('click', function () {
         $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
       });
-    });
+
+      $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+
+  });
   </script>
 </body>
 
