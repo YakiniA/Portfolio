@@ -32,5 +32,5 @@ Here's the link to my developed Website : [RecentPortfolio](https://yakinia.gith
 ##### References
 
 Bootstrap : [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)<br/>
-W3Schools : [W3Schools-ForStyling](https://www.w3schools.com/css/css_howto.asp)
+W3Schools : [W3Schools-ForStyling](https://www.w3schools.com/css/css_howto.asp)<br/>
 Youtube video : [Youtube video](https://www.youtube.com/watch?time_continue=122&v=Zn64_IVLO88&feature=emb_title)
