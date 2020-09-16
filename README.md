@@ -34,7 +34,7 @@ This assignment mainly focuses on updating the already existing portfolio. The w
 <img src="img/Contact.png"  width="380" alt="Contact Page" height="350"/>
 </p>
 
-Here's the link to my developed Website : [RecentPortfolio](https://yakinia.github.io/portfolio)
+Here's the link to my developed Website : [RecentPortfolio](https://yakinia.github.io/Portfolio/)
 
 ##### References
 
