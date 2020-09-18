@@ -9,27 +9,29 @@ html, body{
 }
 
 .navbar{
-	background-color: #23415c;
+	background-color: #464747;
 	padding: 1% 0;
 	font-size: 19px;
 
 }
 
 .navbar-default navbar-nav li a{
-	color: #D5D5D5;
+    /* color: #D5D5D5; */
+    color: white;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
-    color: #FFF;
+    color: white;
 }
 
 #home {
-    background: url('img/homeBackground.jpg') center center fixed; 
+    background: url('img/officeImg.jpg') center center fixed; 
     display: table;
     height: 100%; 
  	position:relative;
 	width:100%;
-	background-size: cover;
+    background-size: cover;
+    color: white;
 	/* background-attachment: fixed; */
 }
 .landing-text {
@@ -124,7 +126,7 @@ footer{
 	height:100%;
 	display:table;
 	position: relative;
-	background-color: #23415c;
+	background-color: #464747;
 	padding: 5% 5% 10% 5%;
 	color: #FFF;
 
@@ -259,7 +261,7 @@ footer{
    }
   } 
 
-  @media only screen and (max-device-width: 375px) {
+  @media only screen and (max-device-width: 390px) {
    
     #home{
         width:110%;
