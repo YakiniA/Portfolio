@@ -24,13 +24,13 @@ html, body{
 }
 
 #home {
-	background-image: url('img/homeBackground.jpg') ;
- 	display: table;
+    background: url('img/homeBackground.jpg') center center fixed; 
+    display: table;
+    height: 100%; 
  	position:relative;
 	width:100%;
-	height: 100%; 
 	background-size: cover;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 }
 .landing-text {
    display: table-cell; 
@@ -224,7 +224,6 @@ footer{
     background-color: #FFF;
     width: 100%;
     overflow-y: auto;
-    /*top: 0;*/
     left:0;
     bottom:0;
     height: 100%;
@@ -242,12 +241,85 @@ footer{
     font-size:18px;
 }
 
-/* @media screen and (max-width: 340px){
-#home {
-	max-width:100%; 
-}
+ @media only screen and (max-device-width: 415px) {
+   .landing-text h1{
+      font-size: 250%;
+   }
+   #home{
+       width:105%;
+   }
 
-footer {
-	max-width:100%;
-} 
-}*/
+   .aboutus, 
+   .projects{
+       width:105%;
+   }
+
+   footer{
+       width:105%;
+   }
+  } 
+
+  @media only screen and (max-device-width: 375px) {
+   
+    #home{
+        width:110%;
+    }
+ 
+    .aboutus,
+    .projects{
+        width:110%;
+    }
+
+    footer{
+        width:110%;
+    }
+   } 
+
+   @media only screen and (max-device-width: 363px) {
+   
+    #home{
+        width:120%;
+    }
+ 
+    .aboutus, 
+    .projects{
+        width:120%;
+    }
+   
+    footer{
+        width:120%;
+    }
+   } 
+
+   @media only screen and (max-device-width: 320px) {
+   
+    #home{
+        width:123%;
+    }
+ 
+    .aboutus,
+    .projects{
+        width:123%;
+    }
+  
+    footer{
+        width:123%;
+    }
+   } 
+
+   @media only screen and (max-device-width: 305px) {
+    
+    #home{
+        width:150%;
+    }
+ 
+    .aboutus,
+    .projects{
+        width:150%;
+    }
+    
+    footer{
+        width:150%;
+    }
+   } 
+ 
