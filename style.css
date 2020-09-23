@@ -28,13 +28,23 @@ html, body{
 .links{
     margin-right:25px;
 }
-.navbar-default navbar-nav li a{
+
+/* .navbar-nav li a{
     /* color: #D5D5D5; */
+   /* color: white;
+} */
+
+.navbar-default .navbar-nav>li>a {
     color: white;
 }
 
-.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+/* .navbar-default navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
     color: white;
+} */
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #bbb8b5;
+    background-color: transparent;
 }
 
 #home {
