@@ -43,7 +43,7 @@ html, body{
 } */
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #bbb8b5;
+    color: #a8a8a7;
     background-color: transparent;
 }
 
@@ -266,6 +266,13 @@ footer{
     font-size:18px;
 }
 
+
+@media only screen and (max-device-width: 767) {
+    .navbar-brand{
+        margin-left:25% !important;
+    }
+}
+
  @media only screen and (max-device-width: 415px) {
    .landing-text h1{
       font-size: 250%;
@@ -281,10 +288,6 @@ footer{
 
    footer{
        width:105%;
-   }
-
-   navBarImg{
-       margin-left:35px;
    }
   } 
 
