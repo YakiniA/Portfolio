@@ -323,13 +323,16 @@ footer{
         width:129%;
     }
  
-    .aboutus,
-    .projects{
+    .aboutus{
         width:123%;
+    }
+
+    .projects{
+        width:129%;
     }
   
     footer{
-        width:123%;
+        width:129%;
     }
    } 
 
