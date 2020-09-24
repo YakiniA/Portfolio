@@ -17,6 +17,7 @@ html, body{
 
 .navBarImg{
     margin-top: -110px;
+    margin-left: -65px;
    
 }
 /* 
@@ -264,13 +265,6 @@ footer{
 .btn-custom{
     background-color: transparent;
     font-size:18px;
-}
-
-
-@media only screen and (max-device-width: 767) {
-    .navbar-brand{
-        margin-left:25% !important;
-    }
 }
 
  @media only screen and (max-device-width: 415px) {
